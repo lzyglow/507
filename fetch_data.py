@@ -3,7 +3,7 @@ import requests
 import time
 '''Code used to fetch data from RAWG API'''
 
-API_KEY = "7fc9c356e3594e1eb89240cf3088018b"
+API_KEY = "" # you can acquire an rawg api at https://rawg.io/apidocs
 url = "https://api.rawg.io/api/games"
 params = {
     "key": API_KEY,
